@@ -1,0 +1,14 @@
+#Tue Mar 13 21:30:15 CST 2012
+eclipse.preferences.version=1
+encoding//WebContent/add_root_node.jsp=UTF-8
+encoding//WebContent/retrieval.jsp=UTF-8
+encoding//src/com/zj/retrieval/master/Matrix.java=UTF-8
+encoding//src/com/zj/retrieval/master/Node.java=UTF-8
+encoding//src/com/zj/retrieval/master/UserField.java=UTF-8
+encoding//src/com/zj/retrieval/master/actions/AddNodeAction.java=UTF-8
+encoding//src/com/zj/retrieval/master/actions/AddRootNodeAction.java=UTF-8
+encoding//src/com/zj/retrieval/master/actions/DeleteNodeAction.java=UTF-8
+encoding//src/com/zj/retrieval/master/actions/QueryNodeOWLAction.java=UTF-8
+encoding//src/com/zj/retrieval/master/actions/RetrievalNodeAction.java=UTF-8
+encoding//src/com/zj/retrieval/master/dao/RetrievalDataSource.java=UTF-8
+encoding//test/com/zj/retrieval/master/test=UTF-8

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="nodeService" namespace="/node" extends="struts-default">
+		<action name="add" class="com.zj.retrieval.master.actions.AddNodeAction" method="execute">
+			<result name="success">/common-message.jsp</result>
+			<result name="error">/common-message.jsp</result>
+		</action>
+		<action name="delete" class="com.zj.retrieval.master.actions.DeleteNodeAction" method="execute">
+			<result name="success">/common-json.jsp</result>
+			<result name="error">/common-json.jsp</result>
+		</action>
+		<action name="edit" class="com.zj.retrieval.master.actions.UpdateNodeAction" method="execute">
+			<result name="success">/common-message.jsp</result>
+			<result name="error">/common-message.jsp</result>
+		</action>
+	</package>
+	
+	<package name="rootNodeService" namespace="/root-node" extends="struts-default">
+		<action name="add" class="com.zj.retrieval.master.actions.AddRootNodeAction" method="execute">
+			<result name="success">/common-message.jsp</result>
+			<result name="error">/common-message.jsp</result>
+		</action>
+		<action name="edit" class="com.zj.retrieval.master.actions.UpdateRootNodeAction" method="execute">
+			<result name="success">/common-message.jsp</result>
+			<result name="error">/common-message.jsp</result>
+		</action>
+	</package>
+	
+	<package name="briefnode" namespace="/briefnode" extends="struts-default">
+		<action name="add" class="com.zj.retrieval.master.actions.AddNodeBriefAction" method="execute">
+			<result name="success">/common-message.jsp</result>
+			<result name="error">/common-message.jsp</result>
+		</action>
+	</package>
+	
+	<package name="upload" namespace="/file" extends="struts-default">
+		<action name="upload" class="com.zj.retrieval.master.actions.UploadAction" method="execute">
+			<result name="success">/common-message.jsp</result>
+			<result name="error">/common-message.jsp</result>
+		</action>
+	</package>
+	
+	<package name="user" namespace="/user" extends="struts-default">
+		<action name="add" class="com.zj.retrieval.master.actions.AddUserAction">
+			<result name="success">/common-message.jsp</result>
+			<result name="error">/common-message.jsp</result>
+		</action>
+		<action name="active" class="com.zj.retrieval.master.actions.ActiveUserAction">
+			<result name="success">/common-message.jsp</result>
+			<result name="error">/common-message.jsp</result>
+		</action>
+	</package>
+	
+</struts>
